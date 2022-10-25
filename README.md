@@ -1,6 +1,12 @@
 # ASMR: Learning Attribute-Based Person Search with Adaptive Semantic Margin Regularizer
 This repository is official implementation of "[ASMR: Learning Attribute-Based Person Search with Adaptive Semantic Margin Regularizer](https://openaccess.thecvf.com/content/ICCV2021/papers/Jeong_ASMR_Learning_Attribute-Based_Person_Search_With_Adaptive_Semantic_Margin_Regularizer_ICCV_2021_paper.pdf)" (ICCV 2021)
+
+
 ![ASMR](ASMR.png)
+
+## Overall architecture
+![Overall_architecture](architecture.png)
+
 ## Requirements 
 *  Python == 3.7.7
 *  Pytorch == 1.6.0
