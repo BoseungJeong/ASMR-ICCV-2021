@@ -16,6 +16,12 @@ conda activate ASMR
 ## Download data
 Market-1501: Download original [Market-1501 dataset](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf) and its [attribute dataset](https://arxiv.org/abs/1703.07220) 
 
+## Pre-processing data
+After downloading Market-1501, the pre-processing is required to run our model by following:
+```bash
+python prepare_Market.py
+python prepare_Market_Attribute.py
+```
 
 ## GPU information
 * NVIDIA Titan XP
@@ -29,3 +35,14 @@ After installing requirements and downloading datasets, you can run our model by
 ```bash
 sh Train_and_Test_ASMR_Market.sh
 ```
+
+## Citation
+If you find ASMR useful in your work, you can cite our paper:
+    @InProceedings{Jeong_2021_ICCV,
+    author    = {Jeong, Boseung and Park, Jicheol and Kwak, Suha},
+    title     = {ASMR: Learning Attribute-Based Person Search With Adaptive Semantic Margin Regularizer},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {12016-12025}
+    }
