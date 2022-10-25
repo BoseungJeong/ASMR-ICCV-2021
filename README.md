@@ -39,12 +39,12 @@ sh Train_and_Test_ASMR_Market.sh
 ## Citation
 If you find ASMR useful in your work, you can cite our paper:
 ```python
-    @InProceedings{Jeong_2021_ICCV,
-    author    = {Jeong, Boseung and Park, Jicheol and Kwak, Suha},
-    title     = {ASMR: Learning Attribute-Based Person Search With Adaptive Semantic Margin Regularizer},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {12016-12025}
-    }
+@InProceedings{Jeong_2021_ICCV,
+author    = {Jeong, Boseung and Park, Jicheol and Kwak, Suha},
+title     = {ASMR: Learning Attribute-Based Person Search With Adaptive Semantic Margin Regularizer},
+booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+month     = {October},
+year      = {2021},
+pages     = {12016-12025}
+}
 ```
