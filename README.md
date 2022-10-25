@@ -20,7 +20,7 @@ conda activate ASMR
 ```
 
 ## Download data
-Market-1501: Download original [Market-1501 dataset](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf) and its [attribute dataset](https://arxiv.org/abs/1703.07220) 
+Market-1501: Download original [Market-1501 dataset](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf) and its [attribute dataset](https://arxiv.org/abs/1703.07220). 
 
 ## Pre-processing data
 After downloading Market-1501, the pre-processing is required to run our model by following:
