@@ -37,6 +37,11 @@ python prepare_Market_Attribute.py
 
 ## Training and Evaluation
 After installing requirements and downloading datasets, you can run our model by following:
+* Pre-training with attribute recognition
+```bash
+python train_AR.py --AR --train_all --lr 0.01 --batchsize 64 --num_epoch 40
+```
+
 * Train and evaluation on Market-1501
 ```bash
 sh Train_and_Test_ASMR_Market.sh
