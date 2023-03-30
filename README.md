@@ -14,7 +14,7 @@ This repository is official implementation of "[ASMR: Learning Attribute-Based P
 ## Installation
 ```bash
 git clone https://github.com/BoseungJeong/ASMR.git
-cd ASNR
+cd ASMR
 conda env create -f ASMR.yaml
 conda activate ASMR
 ```
